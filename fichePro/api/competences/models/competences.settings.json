@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "competences",
+  "info": {
+    "name": "competences_metier"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "intitule": {
+      "type": "string"
+    },
+    "categorie": {
+      "type": "string"
+    },
+    "level": {
+      "type": "component",
+      "repeatable": false,
+      "component": "list.niveaux"
+    }
+  }
+}

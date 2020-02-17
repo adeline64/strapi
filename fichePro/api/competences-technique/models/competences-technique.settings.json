@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "competences_techniques",
+  "info": {
+    "name": "competences_technique"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "intitule": {
+      "type": "string"
+    },
+    "level": {
+      "type": "component",
+      "repeatable": false,
+      "component": "list.niveaux"
+    }
+  }
+}

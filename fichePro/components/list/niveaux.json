@@ -1,0 +1,46 @@
+{
+  "connection": "default",
+  "collectionName": "components_list_niveaux",
+  "info": {
+    "name": "niveaux",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Comprendre": {
+      "type": "integer",
+      "max": 3,
+      "min": 0,
+      "default": 1
+    },
+    "duppliquer": {
+      "type": "integer",
+      "max": 3,
+      "min": 0,
+      "default": 1
+    },
+    "analyser": {
+      "type": "integer",
+      "max": 3,
+      "min": 0,
+      "default": 1
+    },
+    "evaluer": {
+      "type": "integer",
+      "max": 3,
+      "min": 0,
+      "default": 1
+    },
+    "concevoir": {
+      "type": "integer",
+      "max": 3,
+      "min": 0,
+      "default": 1
+    },
+    "inventer": {
+      "type": "integer",
+      "max": 3,
+      "min": 0
+    }
+  }
+}

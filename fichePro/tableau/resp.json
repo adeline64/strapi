@@ -1,0 +1,431 @@
+[
+    {
+        "id": 1,
+        "nom": "lacabanne",
+        "prenom": "adeline",
+        "mail": "adeline.lacabanne@gmail.com",
+        "created_at": "2020-01-10T13:53:57.845Z",
+        "updated_at": "2020-01-10T13:53:57.845Z",
+        "competence_humaines": [
+            {
+                "id": 1,
+                "qualite": "Fiable",
+                "etat": 2,
+                "created_at": "2020-01-10T13:55:39.440Z",
+                "updated_at": "2020-01-14T15:42:03.705Z"
+            },
+            {
+                "id": 2,
+                "qualite": "Organisée",
+                "etat": 2,
+                "created_at": "2020-01-10T13:55:48.634Z",
+                "updated_at": "2020-01-14T15:42:15.932Z"
+            },
+            {
+                "id": 3,
+                "qualite": "Disponible",
+                "etat": 2,
+                "created_at": "2020-01-10T13:55:55.478Z",
+                "updated_at": "2020-01-14T15:42:26.676Z"
+            },
+            {
+                "id": 7,
+                "qualite": "fluide",
+                "etat": 2,
+                "created_at": "2020-01-10T13:57:10.495Z",
+                "updated_at": "2020-01-14T15:43:09.252Z"
+            },
+            {
+                "id": 8,
+                "qualite": "energique",
+                "etat": 3,
+                "created_at": "2020-01-10T13:57:22.134Z",
+                "updated_at": "2020-01-14T15:43:18.896Z"
+            },
+            {
+                "id": 9,
+                "qualite": "independante",
+                "etat": 2,
+                "created_at": "2020-01-10T13:57:30.869Z",
+                "updated_at": "2020-01-14T15:43:29.783Z"
+            },
+            {
+                "id": 10,
+                "qualite": "curieuse",
+                "etat": 3,
+                "created_at": "2020-01-10T13:57:42.093Z",
+                "updated_at": "2020-01-14T15:43:43.772Z"
+            },
+            {
+                "id": 11,
+                "qualite": "equipier",
+                "etat": 3,
+                "created_at": "2020-01-10T13:57:49.693Z",
+                "updated_at": "2020-01-14T15:43:56.731Z"
+            },
+            {
+                "id": 6,
+                "qualite": "leader",
+                "etat": 2,
+                "created_at": "2020-01-10T13:57:03.737Z",
+                "updated_at": "2020-01-14T15:42:56.889Z"
+            },
+            {
+                "id": 4,
+                "qualite": "Reflexif",
+                "etat": 2,
+                "created_at": "2020-01-10T13:56:44.446Z",
+                "updated_at": "2020-01-14T15:42:37.166Z"
+            },
+            {
+                "id": 5,
+                "qualite": "créatif",
+                "etat": 2,
+                "created_at": "2020-01-10T13:56:56.358Z",
+                "updated_at": "2020-01-14T15:42:47.903Z"
+            }
+        ],
+        "competences_metiers": [
+            {
+                "id": 23,
+                "intitule": "Maquetter une application",
+                "categorie": "front-end",
+                "created_at": "2020-01-14T15:49:22.965Z",
+                "updated_at": "2020-01-14T15:49:22.965Z",
+                "level_metier": {
+                    "id": 20,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 24,
+                "intitule": "Réaliser une interface utilisateur web statique et adaptable",
+                "categorie": "Front-end",
+                "created_at": "2020-01-14T15:49:51.517Z",
+                "updated_at": "2020-01-14T15:49:51.517Z",
+                "level_metier": {
+                    "id": 22,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 25,
+                "intitule": "Développer une interface utilisateur web dynamique",
+                "categorie": "front-end",
+                "created_at": "2020-01-14T15:50:14.749Z",
+                "updated_at": "2020-01-14T15:50:14.749Z",
+                "level_metier": {
+                    "id": 18,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 26,
+                "intitule": "Réaliser une interface utilisateur avec une solution de gestion de contenu ou e-commerce",
+                "categorie": "front-end",
+                "created_at": "2020-01-14T15:51:00.131Z",
+                "updated_at": "2020-01-14T15:51:00.131Z",
+                "level_metier": {
+                    "id": 21,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 27,
+                "intitule": "Créer une base de données",
+                "categorie": "back-end",
+                "created_at": "2020-01-14T15:51:30.871Z",
+                "updated_at": "2020-01-14T15:51:30.871Z",
+                "level_metier": {
+                    "id": 15,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 28,
+                "intitule": "Développer les composants d'accès au données",
+                "categorie": "back-end",
+                "created_at": "2020-01-14T15:52:06.363Z",
+                "updated_at": "2020-01-14T15:52:06.363Z",
+                "level_metier": {
+                    "id": 17,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 29,
+                "intitule": "Développer la partie back-end d'une application web ou web-mobile",
+                "categorie": "back-end",
+                "created_at": "2020-01-14T15:52:38.283Z",
+                "updated_at": "2020-01-14T15:52:38.283Z",
+                "level_metier": {
+                    "id": 16,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 30,
+                "intitule": "Elaborer et mettre en oeuvre des composants dans une application de gestion de contenu ou e-commerce",
+                "categorie": "back-end",
+                "created_at": "2020-01-14T15:53:32.824Z",
+                "updated_at": "2020-01-14T15:53:32.824Z",
+                "level_metier": {
+                    "id": 19,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            }
+        ],
+        "competences_techniques": [
+            {
+                "id": 1,
+                "intitule": "html",
+                "created_at": "2020-01-14T15:45:34.793Z",
+                "updated_at": "2020-01-14T15:45:34.793Z",
+                "levelcomptech": {
+                    "id": 10,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 2,
+                "intitule": "css",
+                "created_at": "2020-01-14T15:45:48.888Z",
+                "updated_at": "2020-01-14T15:45:48.888Z",
+                "levelcomptech": {
+                    "id": 9,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 3,
+                "intitule": "javascript procédural",
+                "created_at": "2020-01-14T15:46:00.767Z",
+                "updated_at": "2020-01-14T15:46:00.767Z",
+                "levelcomptech": {
+                    "id": 12,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 4,
+                "intitule": "javascript avance",
+                "created_at": "2020-01-14T15:46:23.213Z",
+                "updated_at": "2020-01-14T15:46:23.213Z",
+                "levelcomptech": {
+                    "id": 11,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 5,
+                "intitule": "wordpress",
+                "created_at": "2020-01-14T15:46:37.453Z",
+                "updated_at": "2020-01-14T15:46:37.453Z",
+                "levelcomptech": {
+                    "id": 14,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 6,
+                "intitule": "angular",
+                "created_at": "2020-01-14T15:46:46.629Z",
+                "updated_at": "2020-01-14T15:46:46.629Z",
+                "levelcomptech": {
+                    "id": 8,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 8,
+                "intitule": "C",
+                "created_at": "2020-01-14T15:47:05.138Z",
+                "updated_at": "2020-01-14T15:47:05.138Z",
+                "levelcomptech": {
+                    "id": 1,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 7,
+                "intitule": "react",
+                "created_at": "2020-01-14T15:46:54.982Z",
+                "updated_at": "2020-01-14T15:46:54.982Z",
+                "levelcomptech": {
+                    "id": 13,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 9,
+                "intitule": "Java",
+                "created_at": "2020-01-14T15:47:14.379Z",
+                "updated_at": "2020-01-14T15:47:14.379Z",
+                "levelcomptech": {
+                    "id": 2,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 10,
+                "intitule": "NodeJS",
+                "created_at": "2020-01-14T15:47:25.378Z",
+                "updated_at": "2020-01-14T15:47:25.378Z",
+                "levelcomptech": {
+                    "id": 3,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 11,
+                "intitule": "PHP procédural",
+                "created_at": "2020-01-14T15:47:41.193Z",
+                "updated_at": "2020-01-14T15:47:41.193Z",
+                "levelcomptech": {
+                    "id": 5,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 12,
+                "intitule": "PHP objet",
+                "created_at": "2020-01-14T15:47:56.210Z",
+                "updated_at": "2020-01-14T15:47:56.210Z",
+                "levelcomptech": {
+                    "id": 4,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 13,
+                "intitule": "Python",
+                "created_at": "2020-01-14T15:48:04.558Z",
+                "updated_at": "2020-01-14T15:48:04.558Z",
+                "levelcomptech": {
+                    "id": 6,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            },
+            {
+                "id": 14,
+                "intitule": "SQL",
+                "created_at": "2020-01-14T15:48:13.628Z",
+                "updated_at": "2020-01-14T15:48:13.628Z",
+                "levelcomptech": {
+                    "id": 7,
+                    "Comprendre": 1,
+                    "duppliquer": 1,
+                    "analyser": 1,
+                    "evaluer": 1,
+                    "concevoir": 1,
+                    "inventer": null
+                }
+            }
+        ]
+    }
+]

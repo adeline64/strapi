@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/competences-techniques",
+      "handler": "competences-technique.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/competences-techniques/count",
+      "handler": "competences-technique.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/competences-techniques/:id",
+      "handler": "competences-technique.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/competences-techniques",
+      "handler": "competences-technique.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/competences-techniques/:id",
+      "handler": "competences-technique.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/competences-techniques/:id",
+      "handler": "competences-technique.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

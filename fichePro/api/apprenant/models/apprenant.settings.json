@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "apprenants",
+  "info": {
+    "name": "apprenant"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "competence_humaines": {
+      "collection": "competence-humaine"
+    },
+    "competences_metiers": {
+      "collection": "competences"
+    },
+    "competences_techniques": {
+      "collection": "competences-technique"
+    }
+  }
+}

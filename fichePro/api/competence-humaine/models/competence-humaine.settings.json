@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "competence_humaines",
+  "info": {
+    "name": "competenceHumaine"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "qualite": {
+      "type": "string"
+    },
+    "etat": {
+      "type": "integer",
+      "max": 10
+    }
+  }
+}

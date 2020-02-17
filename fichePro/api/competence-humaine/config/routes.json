@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/competence-humaines",
+      "handler": "competence-humaine.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/competence-humaines/count",
+      "handler": "competence-humaine.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/competence-humaines/:id",
+      "handler": "competence-humaine.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/competence-humaines",
+      "handler": "competence-humaine.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/competence-humaines/:id",
+      "handler": "competence-humaine.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/competence-humaines/:id",
+      "handler": "competence-humaine.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
